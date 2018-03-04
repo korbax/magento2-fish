@@ -42,7 +42,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/korbax/magento2-fish.git"
+            "url": "git@github.com:korbax/magento2-fish.git"
         }
     ]
 }
