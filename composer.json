@@ -1,5 +1,5 @@
 {
-    "name": "proplazma/magento2-fish-module",
+    "name": "proplazma/magento2-fish",
     "description": "Example using 'areas' - displays application state including a list of loaded modules",
     "minimum-stability": "dev",
     "require": {
