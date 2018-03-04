@@ -1,11 +1,12 @@
 {
-    "name": "proplazma/fish",
+    "name": "proplazma/magento2-fish-module",
     "description": "Example using 'areas' - displays application state including a list of loaded modules",
     "require": {
-        "magento/framework": "0.1.*"
+        "magento/framework": "0.1.*",
+        "magento/magento-composer-installer": "*"
     },
     "type": "magento2-module",
-    "version": "0.2.0",
+    "version": "1.2.0",
     "extra": {
         "map": [
             [
@@ -20,5 +21,13 @@
             "homepage": "http://alankent.wordpress.com/",
             "role": "Developer"
         }
-    ]
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Proplazma\\Fish\\": ""
+        }
+    }
 }
