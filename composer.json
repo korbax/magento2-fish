@@ -5,6 +5,9 @@
         "magento/framework": "0.1.*",
         "magento/magento-composer-installer": "*"
     },
+    "license": [
+        "OSL-3.0"
+    ],
     "type": "magento2-module",
     "version": "1.2.0",
     "extra": {
@@ -18,7 +21,8 @@
     "authors": [
         {
             "name": "Aleksandr Drobot",
-            "homepage": "http://alankent.wordpress.com/",
+            "homepage": "https://github.com/korbax/magento2-fish/",
+            "email": "drobot76@gmail.com",
             "role": "Developer"
         }
     ],
@@ -29,5 +33,11 @@
         "psr-4": {
             "Proplazma\\Fish\\": ""
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/korbax/magento2-fish"
+        }
+    ]
 }
